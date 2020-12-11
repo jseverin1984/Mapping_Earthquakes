@@ -7,12 +7,7 @@ let map = L.map("mapid", {
     zoom: 5
 });
 
-let line = [
-    [33.9416, -118.4085],
-    [30.1975, -97.6664],
-    [43.6777, -79.6248],
-    [40.6413, -73.7781]
-  ];
+let line = [[33.9416, -118.4085],[30.1975, -97.6664],[43.6777, -79.6248],[40.6413, -73.7781]];
 
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
